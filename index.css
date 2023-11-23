@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.panel {
+    width: 400px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bar {
+    margin-bottom: 10px;
+}
+
+.bar-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.phishing .bar-progress {
+    height: 30px;
+    border-radius: 5px;
+    background-color: #3498db; /* Blue */
+}
+
+.malware .bar-progress {
+    height: 30px;
+    border-radius: 5px;
+    background-color: #e74c3c; /* Red */
+}
+
+.brute-force .bar-progress {
+    height: 30px;
+    border-radius: 5px;
+    background-color: #2ecc71; /* Green */
+}
+
+.percentage {
+    margin-left: 5px;
+    font-weight: bold;
+    color: #333;
+}
